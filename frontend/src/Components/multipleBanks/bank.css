@@ -1,0 +1,37 @@
+/* src/BankAccount.css */
+.bank-accounts {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .account-type {
+    margin-bottom: 40px;
+  }
+  
+  .bank-account {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .balance {
+    margin-bottom: 10px;
+  }
+  
+  .transactions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transactions li:last-child {
+    border-bottom: none;
+  }
+  
